@@ -14,19 +14,7 @@ p {
 
 div {
 	background-color: #f7f7f7;
-	/*clear: right;*/
 }
-
-/*
-.sectionTitle {
-	width: 30%;
-	float: right;
-	border: 1px solid black;
-	position: relative;
-}
-*/
-
-/** USING THIS ONE **/
 
 .sectionHeader2 {
 	border: 1px solid black;
@@ -41,22 +29,6 @@ div {
 	padding-left: 12px;
 }
 
-
-/************ */
-.sectionHeader {
-	/*float: right;*/  /* did nothing when I added in */
-	float: left;  /* TRYING THIS NOW, going to check for media styles now*/
-	border: 1px solid black;
-	margin-right: auto;
-	margin-left: auto;
-	padding: 12px; 
-	text-align: right;
-}
-
-.sectionText {
-	clear: left; /* DO NOT WANT TO DO THIS, either R or L */ /* TRING AGAIN */
-}
-
 #dinnerMenu {
 	background-color: #3b5998;
 	color: #ffffff;
@@ -64,17 +36,15 @@ div {
 
 #veggieMenu {
 	background-color:#8b9dc3;
-	/*border: 1px solid black;*/
 }
 
 #desertMenu {
 	background-color: #dfe3ee;
-	/*border: 1px solid black;*/
 }
 
 @media (min-width: 1200px) { 
 	.col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
-		float: left;  /** cannot take this out **/
+		float: left; 
 		border: 1px solid black;
 	}
 	.col-lg-1 {
@@ -117,7 +87,7 @@ div {
 
 @media (min-width: 992px) and (max-width: 1199px) {
 	.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
-		float: left; /** cannot take this out **/
+		float: left;
 		border: 1px solid black;
 	}
   	.col-md-1 {
@@ -160,7 +130,7 @@ div {
 
 @media (min-width: 768px) and (max-width: 991px) {
 	.col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
-		float: left; /** cannot take this out **/
+		float: left;
 		border: 1px solid black;
 	}
   	.col-sm-1 {
@@ -203,7 +173,7 @@ div {
 
 @media	(max-width: 767px) {
 	.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
-		float: left; /** cannot take this out **/
+		float: left;
 		border: 1px solid black;
 	}
   	.col-xs-1 {
