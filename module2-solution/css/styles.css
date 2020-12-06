@@ -16,16 +16,19 @@ div {
 	background-color: #f7f7f7;
 }
 
-.sectionHeader2 {
+.sectionHeader {
+	box-sizing: ;
 	border: 1px solid black;
 	margin-top: 0px;
 	margin-right: auto;
 	margin-left: auto;
 	padding: 5px; 
-	text-align: right;
+	text-align: center;
+	width: 30%;
+	margin-left: 70%;
 }
 
-.sectionText2 {
+.sectionText {
 	padding-left: 12px;
 }
 
