@@ -31,7 +31,7 @@ body {
   margin-top: 10px;
   margin-top: 0;
   margin-bottom: 0;
-  background-color: #dfe3ee;
+  background-color: #8b9dc3;
 }
 #nav-list a {
   color: #4f4f4f;
@@ -51,14 +51,14 @@ body {
   font-size: 1.5em;
   color: #4f4f4f;
   margin-top: 0;
+  margin-bottom: 0;
   font-weight: bold;
 }
 
 /* SINGLE CATEGORY PAGE */
 .menu-item-tile {
-  /*background-color: #8b9dc3;*/
-  margin-right: -15px;
   margin-top: 12px;
+  padding-right: 0px;
 }
 .menu-item-tile hr {
   width: 80%;
