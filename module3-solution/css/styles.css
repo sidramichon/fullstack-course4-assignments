@@ -54,37 +54,24 @@ body {
   font-weight: bold;
 }
 
-/*
-.tile-header {
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 100%;
-  text-align: center;
-  font-size: 1.2em;
-  color: #000;
-}
-*/
-
-
 /* SINGLE CATEGORY PAGE */
 .menu-item-tile {
-  /*margin-bottom: 25px;*/
-  background-color: #8b9dc3;
+  /*background-color: #8b9dc3;*/
   margin-right: -15px;
+  margin-top: 12px;
 }
 .menu-item-tile hr {
   width: 80%;
 }
 .menu-item-description {
   /*padding-right: 30px;*/
-  padding: 0px 12px 12px 12px;
+  padding: 6px 12px 6px 12px;
   background-color: #dfe3ee;
   width: 100%;
 
 }
 h3.menu-item-title {
-  /*margin: 10px 10px 10px 10px;*/
+  margin: 10px 10px 10px 10px;
   font-size: 1.1em;
   text-align: center;
   color: #4f4f4f
