@@ -105,7 +105,7 @@ function buildAndShowHomeHTML (categories) {
       // variable's name implies it expects.
       // var chosenCategoryShortName = ....
       var chosenCategoryShortName = chooseRandomCategory(categories).short_name;
-      console.log("The random category that we need to display is: " + chosenCategoryShortName);
+      //console.log("The random category that we need to display is: " + chosenCategoryShortName);
    
 
 
@@ -122,10 +122,10 @@ function buildAndShowHomeHTML (categories) {
       //
       // var homeHtmlToInsertIntoMainPage = ....
 
-      console.log("***** BEGIN BEFORE: The HTML to update: " + homeHtml +"\n\nEND BEFORE *****\n\n");
+      //console.log("***** BEGIN BEFORE: The HTML to update: " + homeHtml +"\n\nEND BEFORE *****\n\n");
       
       var homeHtmlToInsertIntoMainPage = insertProperty(homeHtml, "randomCategoryShortName", "'"+chosenCategoryShortName+"'");
-      console.log("****** BEGIN MOD homeHtmlToInsertIntoMainPage: " + homeHtmlToInsertIntoMainPage + "\n\nEND MOD homeHtmlToInsertIntoMainPage *****\n\n");
+      //console.log("****** BEGIN MOD homeHtmlToInsertIntoMainPage: " + homeHtmlToInsertIntoMainPage + "\n\nEND MOD homeHtmlToInsertIntoMainPage *****\n\n");
 
 
       // TODO: STEP 4: Insert the the produced HTML in STEP 3 into the main page
